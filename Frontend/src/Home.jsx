@@ -92,7 +92,7 @@ export default function Home() {
          // delete function...
     const deleteItem = (id) => {
          // Display a confirmation dialog
-        const confirmed = window.confirm('Are you sure you want to delete?');
+        const confirmed = window.confirm('Are you sure you want to delete...?');
       
          if (confirmed) {
            // User confirmed, proceed with delete
